@@ -15,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
         //Safety Warning
         AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
         alertDialog.setTitle("Alert");
-        alertDialog.setMessage("Alert message to be shown");
-        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL,"OK",
+        alertDialog.setMessage("This app is for reference purposes only. Please consult your local, state, or country driving laws.");
+        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL,"Accept",
                 new DialogInterface.OnClickListener()
                 {public void onClick (DialogInterface dialog,int which){
                     dialog.dismiss();
